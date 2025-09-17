@@ -57,6 +57,15 @@ const Header = ({ theme, setTheme }) => {
           onClick={() => {
             setSidebarOpen(false);
           }}
+          href="#our-team"
+          className="sm:hover:border-b"
+        >
+          Our Team
+        </a>
+        <a
+          onClick={() => {
+            setSidebarOpen(false);
+          }}
           href="#contact-us"
           className="sm:hover:border-b"
         >
