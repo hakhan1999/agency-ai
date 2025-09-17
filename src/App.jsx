@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import TrustedBy from "./components/TrustedBy";
+import Services from "./components/Services";
 
 const App = () => {
   const [theme, setTheme] = useState(
@@ -12,6 +13,7 @@ const App = () => {
       <Header theme={theme} setTheme={setTheme} />
       <Hero />
       <TrustedBy />
+      <Services />
     </div>
   );
 };
