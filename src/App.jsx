@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 const App = () => {
   const [theme, setTheme] = useState(
@@ -8,6 +9,7 @@ const App = () => {
   return (
     <div className="dark:bg-black relative">
       <Header theme={theme} setTheme={setTheme} />
+      <Hero />
     </div>
   );
 };
