@@ -98,7 +98,6 @@ const ContactUs = () => {
           <img src={assets.arrow_icon} alt="Arrow" className="w-4" />
         </button>
       </motion.form>
-      <span>{result}</span>
     </motion.div>
   );
 };
